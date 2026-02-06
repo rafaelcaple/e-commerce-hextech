@@ -1,4 +1,4 @@
-# Aplicação Web de E-commerce
+# Aplicação Web de E-commerce - Hextech
 
 Projeto acadêmico desenvolvido como Trabalho de Conclusão de Curso (TCC), com o objetivo de aplicar conceitos de lógica de programação, organização de dados e desenvolvimento web completo.
 
