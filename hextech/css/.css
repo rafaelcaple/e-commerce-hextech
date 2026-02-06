@@ -1,0 +1,44 @@
+body {
+    background: #020f27;
+}
+
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #020f27;
+
+    margin: 100px;
+}
+
+.form {
+    margin-inline: 150px;
+}
+
+.formT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background: #031D4E;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.formform {
+    background: #002b55;
+    padding: 2rem;
+    justify-content: left;
+    height: 500px;
+    font-size: 25px;
+    border: 3px;
+}
+
+.textarea {
+    color: black;
+    box-shadow: 100px;
+}
+
+ 

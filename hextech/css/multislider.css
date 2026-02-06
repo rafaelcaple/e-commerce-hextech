@@ -1,0 +1,114 @@
+
+.conteudo {
+    margin-inline: 100px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #031D4E;
+    gap: 10px;
+}
+.row, .fa-solid {
+    font-size: 25px;
+}
+.row a {
+
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.MultiCarousel {
+    background: #020F27;
+    float: left;
+    overflow: hidden;
+    padding: 40px;
+    width: 100%;
+    position: relative; 
+}
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left;
+}
+.MultiCarousel-inner {
+    display: flex;
+    gap:1rem;
+}
+
+.item {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #031D4E;
+    box-shadow: inset 0px 0px 39px -12px rgba(38,14,105,1);
+    outline: #7f7ffec2 solid 0.013rem;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.item:hover {
+    background-color: #0a3586;
+    
+}
+.item img {
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+    text-align: center;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: none;
+    background: black;
+    top: calc(50% - 20px);
+    font-size: 50px;
+    text-align: center;
+    max-width: 50px;
+    max-height: 60px;
+    padding: 1rem; 
+    border-radius: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.MultiCarousel .leftLst img,
+.MultiCarousel .rightLst img{
+    max-width: 20px;
+}
+
+.MultiCarousel .leftLst {
+    left: 0;
+}
+
+.MultiCarousel .rightLst {
+    right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+    
+    padding: 0;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    border-radius: 30px;
+    background: black;
+}

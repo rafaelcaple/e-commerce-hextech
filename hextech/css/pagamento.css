@@ -1,0 +1,334 @@
+.tudopagamento {
+    display: flex;
+    background: #020F27;
+    height: 100%;
+    flex-direction: column;
+}
+
+.cardpagamento {
+    flex-direction: column;
+    width: 100%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 40px;
+    margin: 15px 100px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.tipospagamento {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 100px;
+    font-weight: bold;    
+}
+.tipo {
+    display: flex;
+    align-items: center;
+    
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 100px;
+
+    background-color: #031D4E;
+    
+    border-top: 0.013rem #7f7ffec2 solid;
+    border-left: 0.013rem #7f7ffec2 solid;
+    border-right: 0.013rem #7f7ffec2 solid;
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+    gap:10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.tipo2 {
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 100px;
+
+
+    background-color: #031029;
+    
+    border-top: 0.013rem #7f7ffec2 solid;
+    border-left: 0.013rem #7f7ffec2 solid;
+    border-right: 0.013rem #7f7ffec2 solid;
+    border-bottom: 0.013rem #7f7ffec2 solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+    gap:10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.tipofinal2 {
+    display: flex;
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 100px;
+    min-height: 100px;
+    align-items: center;
+    background-color: #020F27;
+    border-bottom: 0.013rem #7f7ffec2 solid;
+}
+
+.tipofinal {
+    display: flex;
+    align-items: center;
+    max-height: 100px;
+    min-height: 100px;
+    width: 100%;
+    background-color: #020F27;
+    border-bottom: 0.013rem #7f7ffec2 solid;
+}
+
+
+
+.fa-pix, .fa-barcode, .fa-credit-card {
+    font-size: 30px;
+}
+
+
+
+.pagamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 570px;
+    background-color: #031D4E;
+    border-left: 0.013rem #7f7ffec2 solid;
+    border-right: 0.013rem #7f7ffec2 solid;
+    border-bottom: 0.013rem #7f7ffec2 solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 2rem;
+    margin-inline: 100px;
+    margin-bottom: 300px;
+    gap: 5px;
+    padding-bottom: 2rem;
+    transition: 1s;
+}
+.pagamento2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 35.625rem;
+    background-color: #031D4E;
+    border-left: 0.013rem #7f7ffec2 solid;
+    border-right: 0.013rem #7f7ffec2 solid;
+    border-bottom: 0.013rem #7f7ffec2 solid;
+    border-bottom-left-radius: 0.625rem;
+    border-bottom-right-radius: 0.625rem;
+    padding: 2rem;
+    margin-inline: 6.25rem;
+    margin-bottom: 18.75rem;
+    gap: 1.875rem;
+    padding-bottom: 2rem;
+}
+
+.btnpagar {
+    padding: 1rem;
+    background-color: #694aab;
+    box-shadow: inset 0px 0px 39px -12px rgba(38, 14, 105, 1);
+    font-size: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.btnpagar:hover {
+    background-color: #3a2764;
+    color: white;
+}
+
+.pix {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin-top: 30px;
+
+ gap: 15px;
+}
+.pix img {
+ width: 400px;
+ height: 150px;
+}
+.preco {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 30px;
+}
+.precosem {
+    padding: 1.2rem;
+    background-color:rgba(0, 0, 0, 0.395);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    width: 300PX;
+}
+.precocom {
+    padding: 1.2rem;
+    background-color:rgb(54, 167, 54);
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    width: 300PX;
+}
+
+.boleto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   
+    gap: 15px;
+   }
+
+.boleto img {
+    width: 300px;
+ height: 150px;
+}
+.descPix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    font-size: 25px;
+    
+}
+.geradorQR {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+.qrimagem img {
+    width: 300px;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+   
+}
+.pagamento2 img {
+    max-width: 16rem;
+}
+.form input {
+
+    max-height: 4.375rem;
+    min-height: 4.375rem;
+    color: black;
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 18px;
+    padding: 0.25rem;
+    border-radius: 7px;
+    font-weight: normal;
+    padding: 1rem;
+    margin: 0.625rem;
+}
+.formVal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.formVal input {
+    max-height: 4.375rem;
+    min-height: 4.375rem;
+    color: black;
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 7px;
+    font-weight: normal;
+    padding: 1rem;
+    margin: 10PX;
+    color: black;
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 18px;
+    border-radius: 7px;
+    font-weight: normal;
+
+}
+.select {
+    display: flex;
+    color: black;
+    max-height: 70px;
+    min-height: 70px;
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 7px;
+    font-weight: normal;
+    padding: 1rem;
+    margin: 10PX;
+}
+.select option {
+    color: black;
+    border-color: #cccccc;
+    border-radius: 7px;
+}
+.Produtos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.validade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fechar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.precosem2 {
+    padding: 1.2rem;
+    background-color:rgba(0, 0, 0, 0.395);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    width: 300PX;
+}
+.precosem2 p {
+    font-weight: bold;
+}
+.imgcartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}

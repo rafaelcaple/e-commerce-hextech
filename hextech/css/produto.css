@@ -1,0 +1,10 @@
+.tudo {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 2rem 0 3.5rem;
+  background-color: #031D4E;
+  opacity: 1;
+  background-image: linear-gradient(#020F27 8px, transparent 8px), linear-gradient(90deg, #020F27 8px, transparent 8px), linear-gradient(#020F27 4px, transparent 4px), linear-gradient(90deg, #020F27 4px, #031D4E 4px);
+  background-size: 200px 200px, 200px 200px, 40px 40px, 40px 40px;
+  background-position: -8px -8px, -8px -8px, -4px -4px, -4px -4px;
+}

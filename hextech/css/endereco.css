@@ -1,0 +1,111 @@
+.tudo {
+    display: flex;
+    background: #020F27;
+    height: 100%;
+    flex-direction: column;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin: 15px 100px;
+    gap: 10px;
+    font-weight: bold;
+}
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    background-color: #031D4E;
+    border: 0.013rem #7f7ffec2 solid;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-inline: 100px;
+    margin-bottom: 300px;
+    gap: 30px;
+    padding-bottom: 2rem;
+}
+
+
+.cep {
+    display: flex;
+    flex-direction: row;
+    width:1000px;
+    gap: 10px;
+}
+.input {
+    width:90%;
+}
+.cepbt {
+    display: flex;
+    width: 30%;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    background-color: #694aab;
+    box-shadow: inset 0px 0px 39px -12px rgba(38, 14, 105, 1);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+}
+.cepbt:hover {
+    background-color: #3a2764;
+    color: white;
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:12px;
+    width:1000px;
+}
+
+.form input {
+    width: 100%;
+    color: black;
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 7px;
+    font-weight: normal;
+    padding: 1rem;
+}
+.frete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.frete button {
+    padding: 1rem;
+    text-align: center;
+    background-color: #694aab;
+    box-shadow: inset 0px 0px 39px -12px rgba(38, 14, 105, 1);
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.frete button:hover {
+    background-color: #3a2764;
+    color: white;
+}

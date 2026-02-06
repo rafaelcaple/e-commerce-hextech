@@ -1,0 +1,89 @@
+body {
+    background: #020F27;
+}
+.vazio {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bold;
+    flex-wrap: wrap;
+    background: #020F27;
+    padding-bottom: 900px;
+    font-size: 40px;
+  }
+
+.Produtos {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    font-weight: bold;
+    flex-wrap: wrap;
+    background: #020F27;
+    padding-bottom: 400px;
+    margin-inline: 100px;
+  }
+  
+  .cardProduto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    background-color: #031D4E;
+    box-shadow: inset 0px 0px 39px -12px rgba(38,14,105,1);
+    outline: #7f7ffec2 solid 0.013rem;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 1rem;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+  .cardProduto:hover {
+      background: #8860dc;
+      
+  }
+  
+  
+  
+  .imagemProduto img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+  .produtounico {
+    background: none;
+    border: none;
+  }
+  .nomeProduto {
+    white-space: nowrap; 
+    font-size: 15px;
+    width: 300px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+  }
+  .price {
+   color: white;
+   font-size: 25px;
+  }
+  
+  .btnProduto {
+    appearance: none;
+    background-color: #694aab;
+    box-shadow: inset 0px 0px 39px -12px rgba(38, 14, 105, 1);
+    border-radius: 10px;
+    width: 90%;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: normal;
+    margin: 0;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    transition: all 1s;
+  }

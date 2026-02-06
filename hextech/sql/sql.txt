@@ -1,0 +1,23 @@
+CREATE DATABASE `dbhextech` /*!40100 DEFAULT CHARACTER SET utf8mb4 */
+
+CREATE TABLE `cadastro` (
+  `idcadastro` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(150) DEFAULT NULL,
+  `email` varchar(150) DEFAULT NULL,
+  `senha` varchar(150) DEFAULT NULL,
+  `cpf` bigint(11) DEFAULT NULL,
+  PRIMARY KEY (`idcadastro`),
+  UNIQUE KEY `email` (`email`),
+  UNIQUE KEY `cpf` (`cpf`)
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4
+
+
+CREATE TABLE `produtos` (
+  `idprod` bigint(255) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(250) NOT NULL,
+  `preco` double(9,2) NOT NULL,
+  `imagem` varchar(250) NOT NULL,
+  PRIMARY KEY (`idprod`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin1
+
+INSERT INTO `produtos` (`idprod`, `nome`, `preco`, `imagem`) VALUES (NULL, 'Placa de Vídeo RTX 2060 Ventus GP OC MSI NVIDIA GeForce, 6GB GDDR6, Ray Tracing - GeForce RTX 2060 VENTUS GP OC', '1499.99', 'rtx2060.png'), (NULL, 'Placa de Vídeo GTX 1660 Super (1-Click OC) Galax NVIDIA GeForce, 6GB, GDDR6 - 60SRL7DSY91S', '1399.99', 'gtx1660.png'), (NULL, 'Placa de Vídeo Gigabyte, Nvidia GeForce GTX 1050 2GB, GDDR5, Gigabyte GV-N1050G1, Gaming 2G\r\n', '590', 'gtx1050.png'), (NULL, 'Placa de Vídeo RX 550 Sapphire AMD Radeon Pulse, 4GB GDDR5 - 11268-01-20G', '450', 'rx550.png');

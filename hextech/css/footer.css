@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background: #020f27;
+    gap: 100px;
+    justify-content: start;
+    padding: 1rem;
+}
+
+
+.Midia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.Midia label {
+    font-weight: bold;
+
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.fa-square-instagram, .fa-square-facebook, .fa-square-twitter, .fa-square-youtube {
+    color: white;
+    font-size: 40px;
+}
+
+.fa-pix, .fa-credit-card, .fa-barcode {
+    font-size: 30px;
+    color: white;
+}
+
+
+.Empresa label {
+    font-weight: bold;
+}
+.Empresa2 label {
+    font-weight: bold;
+}
+.Empresa {
+    margin-left: 50px;
+}
+.listaE {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+}
+.listaF {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.footerR {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    background: #020f27;
+    padding-bottom: 15px;
+    justify-content: center;
+}
