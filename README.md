@@ -31,35 +31,39 @@ Sistema de e-commerce com funcionalidades básicas de navegação de produtos, c
 
 ## 📷 Demonstração
 
-### Página inicial
+### Navegação Principal
 ![Tela 1](hextech/imagens-do-site-funcionando/pagina-principal-1.png)
 ![Tela 2](hextech/imagens-do-site-funcionando/pagina-principal-2.png)
 ![Tela 3](hextech/imagens-do-site-funcionando/pagina-principal-3.png)
 
-## Página de produtos
-![pagina-de-produtos](hextech/imagens-do-site-funcionando/produtos.png)
+Exibição completa da página inicial com produtos em destaque.
 
-## Página de produto
-![pagina-de-produto](hextech/imagens-do-site-funcionando/produto.png)
+### Catálogo e Detalhes
+![Produtos](hextech/imagens-do-site-funcionando/produtos.png)
+![Produto Individual](hextech/imagens-do-site-funcionando/produto.png)
 
-## Carrinho
-![pagina-de-carrinho](hextech/imagens-do-site-funcionando/carrinho.png)
+Navegação pelo catálogo e visualização detalhada de produtos.
 
-## Pagina de cadastro e login
-![pagina-de-cadastro](hextech/imagens-do-site-funcionando/cadastro.png)
-![pagina-de-login](hextech/imagens-do-site-funcionando/login.png)
+### Compra
+![Carrinho](hextech/imagens-do-site-funcionando/carrinho.png)
+![Cálculo de Frete](hextech/imagens-do-site-funcionando/pagina-calculo-frete.png)
 
-## Página de Cálculo de frete
-![pagina-de-calculo-de-frete](hextech/imagens-do-site-funcionando/pagina-calculo-frete.png)
+Adição de produtos ao carrinho e cálculo de envio.
 
-## Página de Pagamento
-![pagina-de-pagamento-pix](hextech/imagens-do-site-funcionando/pagamento-pix.png)
-![pagina-de-pagamento-boleto](hextech/imagens-do-site-funcionando/pagamento-boleto.png)
-![pagina-de-pagamento-cartao-credito](hextech/imagens-do-site-funcionando/pagamento-cartao.png)
+### Autenticação
+![Cadastro](hextech/imagens-do-site-funcionando/cadastro.png)
+![Login](hextech/imagens-do-site-funcionando/login.png)
 
-## Página de Conta e Pedidos
-![pagina-de-conta-e-pedidos](hextech/imagens-do-site-funcionando/conta-pedidos.png)
+Criação de conta e acesso de usuários.
 
-## Página principal completa
-![pagina-de-conta-e-pedidos](hextech/imagens-do-site-funcionando/pagina-principal-completa.png)
+### Pagamento
+![PIX](hextech/imagens-do-site-funcionando/pagamento-pix.png)
+![Boleto](hextech/imagens-do-site-funcionando/pagamento-boleto.png)
+![Cartão de Crédito](hextech/imagens-do-site-funcionando/pagamento-cartao.png)
 
+Múltiplas opções de pagamento integradas.
+
+### Conta do Usuário
+![Conta e Pedidos](hextech/imagens-do-site-funcionando/conta-pedidos.png)
+
+Histórico de pedidos e gerenciamento de conta.
