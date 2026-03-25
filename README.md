@@ -1,6 +1,6 @@
 # Hextech E-commerce
 
-E-commerce built as a technical high school final project in 2022. Frontend in HTML, CSS and JavaScript, backend in PHP and MySQL.
+A fully functional e-commerce web application built as a technical high school final project in 2022. The project covers the entire shopping experience, from browsing a product catalog to completing a purchase, with a custom-built backend handling authentication, cart management, and order tracking.
 
 ## Features
 
