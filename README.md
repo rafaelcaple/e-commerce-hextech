@@ -18,7 +18,7 @@ A fully functional e-commerce web application built as a technical high school f
 ## Screenshots
 
 ### Main Page
-[![Screen 1](hextech/imagens-do-site-funcionando/main_page.png)](hextech/imagens-do-site-funcionando/main_page.png)
+[![Screen 1](hextech/imagens-do-site-funcionando/main_page_n.png)](hextech/imagens-do-site-funcionando/main_page_n.png)
 
 ### Catalog and Product Details
 [![Products](hextech/imagens-do-site-funcionando/produtos.png)](hextech/imagens-do-site-funcionando/produtos.png)
